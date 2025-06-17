@@ -51,7 +51,7 @@ jobs:
             break
           fi
           echo "⏳ Waiting for MongoDB to be ready..."
-          sleep 2
+          sleep 4
         done
     
     - name: Execute formatted queries with mongosh
